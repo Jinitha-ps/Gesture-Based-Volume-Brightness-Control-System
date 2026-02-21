@@ -22,34 +22,33 @@ Using MediaPipe’s hand landmark detection, the system tracks finger positions 
 
 **🛠 Technologies Used**
 
-Python 3.10
+*  Python 3.10
 
-OpenCV
+*  OpenCV
 
-MediaPipe
+*  MediaPipe
 
-NumPy
+*  NumPy
 
-Pycaw (Windows Audio Control)
+*  Pycaw (Windows Audio Control)
 
-screen-brightness-control
+*  screen-brightness-control
 
-🎯 How It Works
+**🎯 How It Works**
 
-The distance between the thumb and index finger controls system volume.
+*  The distance between the thumb and index finger controls system volume.
 
-The distance between the thumb and middle finger controls screen brightness.
+*  The distance between the thumb and middle finger controls screen brightness.
 
-Distance values are interpolated to system-level ranges.
+*  Distance values are interpolated to system-level ranges.
 
-Visual indicators display current volume and brightness percentages.
+*  Visual indicators display current volume and brightness percentages.
 
-📌 Use Cases
+**📌 Use Cases**
 
-Touchless system control
+*  Touchless system control
 
-Accessibility support systems
+*  Accessibility support systems
 
-Smart interfaces
+*  Smart interfaces
 
-Gesture-based IoT applications
